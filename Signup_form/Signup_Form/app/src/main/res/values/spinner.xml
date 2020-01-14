@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="marriage">
+        <item>Married</item>
+        <item>Single</item>
+    </string-array>
+</resources>

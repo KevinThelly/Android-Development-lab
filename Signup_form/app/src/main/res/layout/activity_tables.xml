@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tables">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:padding="10dp"
+                android:text="Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text="" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="10dp"
+                android:text="Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/addr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="10dp"
+                android:text="Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="10dp"
+                android:text="DOB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/date"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                />
+
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:padding="10dp"
+                android:text="Gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text="" />
+
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:padding="10dp"
+                android:text="Contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:padding="10dp"
+                android:text="Language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+
+            <TextView
+                android:id="@+id/language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text="" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
